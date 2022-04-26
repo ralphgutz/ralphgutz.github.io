@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R. Gutierrez</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <button type="button" class="mobile-nav-toggle d-md-none" onclick="navbarCollapse()"><i class="fa-solid fa-bars" id="asd"></i></button>
+
+  <!-- Sidebar Header -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li>
+          <a href="#main" class="nav-link active" id="nav-main">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link" id="nav-about">
+            <i class="fa-solid fa-user"></i>
+            <span>About</span>
+          </a>
+        </li>
+        <!--
+        <li>
+          <a href="#education" class="nav-link scrollto" id="education1">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Education</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#experience" class="nav-link scrollto">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Experience</span>
+          </a>
+        </li>
+        -->
+        <li>
+          <a href="#skills" class="nav-link" id="nav-skills">
+            <i class="fa-solid fa-file-code"></i>
+            <span>Skills</span>
+          </a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link" id="nav-projects">
+            <i class="fa-solid fa-window-restore"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link" id="nav-contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+      
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="main" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-8">
+          <div class="main-text">
+            <span style="font-family: 'Brush Script MT', 'Brush Script Std', cursive; font-size: 2rem;">Hi! <i class="fa-solid fa-hand" style="font-size: 1.5rem"></i> I am</span>
+            <h1>Raphael Gutierrez</h1>
+            <p>Web Development • Data Science</p>
+          </div>
+          <div class="socials">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-dev"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/img/main.jpg" width="350" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row section-title">
+          <h2>About</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 info-list">
+          <p><span style="font-family: 'Brush Script MT', 'Brush Script Std', cursive; font-size: 2rem;">Mabuhay!</span><br>I'm
+            Raphael Gutierrez, a Filipino student taking up Information Technology at the Polytechnic University of the Philippines. I've been coding for 6 years now and still open to learn new skills and technologies. A data-driven person, my fields of interest are:
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-chevron-right"></i> <strong>Web Development</strong></li>
+            <li><i class="fa-solid fa-chevron-right"></i> <strong>Data Science</strong></li>
+            <li><i class="fa-solid fa-chevron-right"></i> <strong>Data Engineering</strong></li>
+            <li><i class="fa-solid fa-chevron-right"></i> <strong>Machine Learning</strong></li>
+          </ul>
+          <p>When I'm not studying, you can see me staring at my screen watching random videos on the internet, playing guitar,
+            napping, or reading a book. You like memes? Well, I like them more.
+          </p>
+
+          <a href=""><i class="fa-solid fa-file-arrow-down"></i>&ensp;Download CV</a>
+            
+
+        </div>
+        <div class="col-md-6">
+          <ul class="timeline">
+            <li>
+              <h4>Polytechnic University of the Philippines</h4>
+              <strong>Bachelor of Science in Information Technology <br> 2019 - 2023</strong>
+              <p>Iskolar ng Bayan. Consistent academic lister from freshmen to junior years.</p>
+            </li>
+            <li>
+              <h4>San Mateo Senior High School</h4>
+              <strong>ICT - Computer Programming <br> 2017 - 2019</strong>
+              <p>Graduated with honors. Received National Certificate III in Visual Graphics Design.
+                Awarded as Outstanding Computer Programming Student and Best in Work Immersion.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="row d-flex align-items-center">
+        <div class="col-md">
+          <ul class="about-summary-list text-center">
+            <li>
+              <h4>25</h4>Repositories
+            </li>
+            <li>
+              <h4>2</h4>Articles
+            </li>
+            <li>
+              <h4>15</h4>Certificates
+            </li>
+            <li>
+              <h4>7</h4>Seminars
+            </li>
+          </ul>
+
+
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row section-title">
+        <h2>Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-10">
+            <p>I can create, design, and maintain software solutions especially web applications. I can also do data engineering, exploratory data analysis, and create simple machine learning algorithms.
+            </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <h4><i class="fa-solid fa-laptop-code" style="padding: 15px 13px"></i>Languages</h4>
+          <ul class="techstack-list">
+            <li><img src="./assets/icons/python.png" width="40" alt="Python" title="Python"></li>
+            <li><img src="./assets/icons/javascript.png" width="40" alt="Javascript" title="Javascript"></li>
+            <li><img src="./assets/icons/php.png" width="50" alt="PHP" title="PHP"></li>
+            <li><img src="./assets/icons/r.png" width="40" alt="R" title="R"></li>
+            <li><img src="./assets/icons/sql.png" width="70" alt="SQL" title="SQL"></li>
+        
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <h4><i class="fa-solid fa-gears" style="padding: 15px 13px"></i>Frameworks & Libraries</h4>
+          <ul class="techstack-list">
+
+            <li><img src="./assets/icons/numpy.png" width="100" alt="Numpy" title="Numpy"></li>
+            <li><img src="./assets/icons/pandas.png" width="100" alt="Pandas" title="Pandas"></li>
+            <li><img src="./assets/icons/matplotlib.png" width="40" alt="Matplotlib" title="Matplotlib"></li>
+            <li><img src="./assets/icons/scikit-learn.png" width="70" alt="Scikit Learn" title="Scikit Learn"></li>
+            <li><img src="./assets/icons/reactjs.png" width="40" alt="React JS" title="React JS"></li>
+            <li><img src="./assets/icons/bootstrap.png" width="40" alt="Bootstrap" title="Bootstrap"></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <h4><i class="fa-solid fa-chart-simple" style="padding: 15px 16px"></i>Tools</h4>
+          <ul class="techstack-list">
+            <li><img src="./assets/icons/mysql.png" width="50" alt="MySQL" title="MySQL"></li>
+            <li><img src="./assets/icons/powerbi.png" width="40" alt="Power BI" title="Power BI"></li>
+            <li><img src="./assets/icons/jupyter.png" width="40" alt="Jupyter Notebook" title="Jupyter Notebook"></li>
+            <li><img src="./assets/icons/git.png" width="40" alt="Git" title="Git"></li>
+            <li><img src="./assets/icons/photoshop.png" width="40" alt="Adobe Photoshop" title="Adobe Photoshop"></li>
+      
+      
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Projects -->
+  <section id="projects" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row section-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-primary">
+            <div class="image-box">
+              <img class="card-img-top" src="./assets/img/wallhaven-md18v9-1.jpg" width="400" height="200" alt="">
+            </div>
+            <div class="card-body">
+              <strong>Is it more fun in the Philippines?</strong>
+              <p>An EDA on World Happiness Reports</p>
+              <br>
+              <span>Python • Data Science</span>
+              <div class="project-link">
+                <a href="">Article</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-primary">
+            <div class="image-box">
+              <img class="card-img-top" src="./assets/img/wallhaven-md18v9-1.jpg" width="400" height="200" alt="">
+            </div>
+            <div class="card-body">
+              <strong>Poultry Farm Management System</strong>
+              <p>A web system that automates poultry farm activities.</p>
+              <br>
+              <span>Bootstrap • PHP • MySQL</span>
+              <div class="project-link">
+                <a href="">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-primary">
+            <div class="image-box">
+              <img class="card-img-top" src="./assets/img/wallhaven-md18v9-1.jpg" width="400" height="200" alt="">
+            </div>
+            <div class="card-body">
+              <strong>Housing Price Prediction with Geospatial Analysis</strong>
+              <p>Predicting and plotting house prices using geopandas.</p>
+              <br>
+              <span>Python • Data Science</span>
+              <div class="project-link">
+                <a href="">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-primary">
+            <div class="image-box">
+              <img class="card-img-top" src="./assets/img/wallhaven-md18v9-1.jpg" width="400" height="200" alt="">
+            </div>
+            <div class="card-body">
+              <strong>COVID-19 PH Cases Tracker</strong>
+              <p>An online application to track COVID-19 cases in the Philippines.</p>
+              <br>
+              <span>Bootstrap • JavaScript</span>
+              <div class="project-link">
+                <a href="">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-primary">
+            <div class="image-box">
+              <img class="card-img-top" src="./assets/img/wallhaven-md18v9-1.jpg" width="400" height="200" alt="">
+            </div>
+            <div class="card-body">
+              <strong>International Space Station Tracker</strong>
+              <p>An online application that tracks the ISS.</p>
+              <br>
+              <span>Bootstrap • JavaScript</span>
+              <div class="project-link">
+                <a href="">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row section-title">
+        <h2>Contact</h2>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div class="col-md">
+            <p><span style="font-family: 'Brush Script MT', 'Brush Script Std', cursive; font-size: 2rem;">Let's talk!</span><br>You can reach out to me at any moment through emails and links below.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div class="contact-info">
+            <i class="fa-solid fa-envelope"></i>
+            <h4>Email</h4>
+            <p>ralphgutz17@gmail.com<br>regutierrez@iskolarngbayan.pup.edu.ph</p>
+          </div>
+          <div class="contact-info">
+            <i class="fa-solid fa-share-nodes" style="margin: 10px 15px 50px 0;"></i>
+            <h4>Socials</h4>
+            <div class="socials">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-dev"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer container-fluid">
+      <div class="row">
+        <div class="col-md p-4 text-center">
+          <div class="main-text">
+            <h2>Raphael Gutierrez</h2>
+            <p>Web Development • Data Science</p>
+          </div>
+          
+          © 2022 Raphael Gutierrez. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="gotoTop()" id="gotoTop"><i class="fa-solid fa-angle-up"></i></button>
+
+
+
+
+  <script src="https://kit.fontawesome.com/9e2b729836.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script>
+    // For mobile sidebar & toggle
+    function navbarCollapse(){
+      let body = document.body;
+      body.classList.toggle("mobile-nav-active");
+
+      let btnIcon = document.querySelector("i");
+      if(btnIcon.classList.contains("fa-bars")){
+        btnIcon.classList.remove('fa-bars');
+        btnIcon.classList.add('fa-circle-xmark');
+      }
+      else{
+        btnIcon.classList.remove('fa-circle-xmark');
+        btnIcon.classList.add('fa-bars');
+      }
+
+    }
+
+    // For menu/navbar toggle
+    let sidebarBtn = document.querySelectorAll(".nav-link")
+
+    sidebarBtn.forEach((li) => {
+      li.addEventListener("click", (e) => {
+        sidebarBtn.forEach((elem) => elem.classList.remove("active"));
+        li.classList.add("active");
+
+        let body = document.body
+        if(body.classList.contains("mobile-nav-active")){
+          body.classList.remove("mobile-nav-active")
+
+          let btnIcon = document.querySelector("i");
+          btnIcon.classList.remove('fa-circle-xmark');
+          btnIcon.classList.add('fa-bars');
+        }
+      });
+    });
+
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        console.log(scroll)
+        if (scroll < 300) {
+          $("#nav-main").addClass("active")
+          $("#nav-about").removeClass("active")
+          $("#nav-skills").removeClass("active")
+          $("#nav-projects").removeClass("active")
+          $("#nav-contact").removeClass("active")
+        }
+        else if ((scroll >= 300) && (scroll < 1200)) {
+          $("#nav-about").addClass("active")
+          $("#nav-main").removeClass("active")
+          $("#nav-skills").removeClass("active")
+          $("#nav-projects").removeClass("active")
+          $("#nav-contact").removeClass("active")
+        }
+        else if ((scroll >= 1200) && (scroll < 2100)) {
+          $("#nav-skills").addClass("active")
+          $("#nav-main").removeClass("active")
+          $("#nav-about").removeClass("active")
+          $("#nav-projects").removeClass("active")
+          $("#nav-contact").removeClass("active")
+        }
+        else if ((scroll >= 2100) && (scroll < 2800)) {
+          $("#nav-projects").addClass("active")
+          $("#nav-skills").removeClass("active")
+          $("#nav-main").removeClass("active")
+          $("#nav-about").removeClass("active")
+          $("#nav-contact").removeClass("active")
+        }
+        else {
+          $("#nav-contact").addClass("active")
+          $("#nav-projects").removeClass("active")
+          $("#nav-skills").removeClass("active")
+          $("#nav-main").removeClass("active")
+          $("#nav-about").removeClass("active")
+        }
+
+
+      })
+    })
+
+    topBtn = document.getElementById("gotoTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function gotoTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+
+
+
+
+
+
+
+  </script>
+
+
+</body>
+</html>

@@ -233,9 +233,9 @@ section {
     transform: scaleX(-1);
 }
 
-#main img:hover {
-    transform: scaleX(-1) translateY(-3px);
-    transition: 0.1s;
+#main .img-container:hover img {
+    transform: scaleX(1);
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -269,7 +269,7 @@ ul.timeline {
 
 ul.timeline:before {
     content: " ";
-    background: #fda3366e;
+    background: #d3d3d3;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -446,6 +446,7 @@ hr {
     color: #0563bb;
     height: 3px !important;
     margin: 16px auto;
+    opacity: 1;
 }
 
 

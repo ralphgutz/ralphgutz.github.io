@@ -296,7 +296,7 @@ ul.timeline > li:before {
     z-index: 998;
 }
 
-#about a {
+#about .downcv {
     background-color: #0563bb;
     color: #fff;
     padding: 5px 10px !important;
@@ -305,7 +305,7 @@ ul.timeline > li:before {
     text-decoration: none;
 }
 
-#about a:hover {
+#about .downcv:hover {
     background-color: #45505b;
     transition: all 0.3s;
 }
